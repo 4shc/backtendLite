@@ -21,5 +21,5 @@ app.use('/api/productos', require('./routes/productos_route'));
 
 // Config server
 app.listen(PORT, () =>{
-  console.log("⚡Server running  OK⚡")
+  console.log("⚡Server running  OK localhost:5000⚡")
 })
